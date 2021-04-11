@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Press+Start+2P"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+      integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://unpkg.com/nes.css@latest/css/nes.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>ChatBoom App</title>
+  </head>
+  <body>
+    <div class="characters">
+      <i class="nes-mario"></i>
+      <i class="nes-ash"></i>
+      <i class="nes-pokeball"></i>
+      <i class="nes-bulbasaur"></i>
+      <i class="nes-charmander"></i>
+      <i class="nes-squirtle"></i>
+      <i class="nes-kirby"></i>
+    </div>
+    <div class="join-container">
+      <header class="join-header">
+        <h1>ChatBoom</h1>
+        <i class="nes-bcrikko"></i>
+      </header>
+      <main class="join-main">
+        <form action="chat.html">
+          <div class="form-control">
+            <label for="username">Username</label>
+            <input
+              type="text"
+              name="username"
+              id="username"
+              placeholder="Enter username..."
+              required
+            />
+          </div>
+          <div class="form-control">
+            <label for="room">Room</label>
+            <div class="nes-select">
+              <select name="room" id="room">
+                <option value="Global">Global</option>
+                <option value="Hackers">Hackers</option>
+                <option value="Designers">Designers</option>
+                <option value="Gamers">Gamers</option>
+                <option value="Readers">Readers</option>
+                <option value="Musicians">Musicians</option>
+              </select>
+            </div>
+          </div>
+          <button type="submit" class="btn">Join Chat</button>
+        </form>
+      </main>
+    </div>
+    <div class="characters">
+      <i class="nes-charmander"></i>
+      <i class="nes-kirby"></i>
+      <i class="nes-squirtle"></i>
+      <i class="nes-bulbasaur"></i>
+      <i class="nes-mario"></i>
+      <i class="nes-pokeball"></i>
+      <i class="nes-ash"></i>
+    </div>
+  </body>
+</html>
